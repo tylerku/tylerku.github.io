@@ -1,18 +1,3 @@
-h1 {
-	text-align: center;
-	color:green;
-}
-
 html {
 	background-color: gray;
-}
-
-img.displayed {
-	/* This code changes the size of the img*/
-	height:400px;
-	width: 300px;
-	/* This code centers the img*/
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
 }
