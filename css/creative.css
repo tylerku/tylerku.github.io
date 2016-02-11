@@ -158,7 +158,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #41b9e1;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -196,7 +196,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -394,15 +394,26 @@ fieldset[disabled] .btn-default.active {
     transition: all .35s;
 }
 
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    border-color: #40b9e1;
+    color: #fff;
+    background-color: #40b9e1;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #40b9e1;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #40b9e1;
 }
 
 .btn-primary:active,
@@ -471,6 +482,8 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+
+
 
 body {
     webkit-tap-highlight-color: #7CFC00;
